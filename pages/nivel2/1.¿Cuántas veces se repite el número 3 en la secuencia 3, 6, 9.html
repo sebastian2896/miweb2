@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificar patrones y repeticiones</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+<body id="pantallaEjercicios">
+    <header>
+        <h1>Identificar el patrón en la secuencia 3, 6, 9 y cuántas veces se repite el número 3</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formSecuenciaNumeros">
+                <div style="display: flex; justify-content: space-around; align-items: center; padding: px;">
+                    <div style="display: flex; justify-content: space-around; align-items: center;">
+                        <button type="button" style="font-size: 60px; margin-right: 20px;" onclick="ope.verificarPatronYRepeticiones(4, 1)">patron4/repet1🤩</button>
+                        <button type="button" style="font-size: 60px; margin-right: 20px;" onclick="ope.verificarPatronYRepeticiones(2, 2)">patron2/repet2🤩</button>
+                        <button type="button" style="font-size: 60px;" onclick="ope.verificarPatronYRepeticiones(3, 1)">patron3/rept1🤩</button>
+                    </div>
+                </div>
+                <button type="button" class="boton" onclick="ope.regresarAlnivel2()">Regresar</button> 
+                <div id="resultadoSecuencia"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6></h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

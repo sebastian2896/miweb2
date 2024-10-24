@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de números naturales</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ingresa un número entero positivo</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formNumerosNaturales">
+                <div style="display: flex; justify-content: space-around; align-items: center; padding: px;">
+                    <input type="number" id="numero" min="1" placeholder="Ingresa un número" style="font-size: 50px; width: 60%; text-align: center;">
+                </div>
+                <div id="resultadoSuma" style="background-color: rgb(25, 218, 67);"></div>
+                <div id="resultadoSuma"></div>
+                <button type="button" class="boton-ejercicio" onclick="ope.calcularSuma()">Calcular suma</button> 
+                <button type="button" class="boton-ejercicio" onclick="ope.regresarAlnivel2()">Regresar</button> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6></h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

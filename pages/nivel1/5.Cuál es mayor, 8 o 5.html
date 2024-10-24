@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cuál número es mayor?</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+<body id="pantallaEjercicios">
+    <header>
+        <h1>¿Cuál número es mayor, 8 o 5?</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formSecuenciaNumeros">
+                <div style="display: flex; justify-content: space-around; align-items: center; padding: px;">
+                    <div style="display: flex; justify-content: space-around; align-items: center;">
+                        <button type="button" style="font-size: 500px; margin-right: 20px;" onclick="ope.verificarMayor(8)">8</button>
+                        <button type="button" style="font-size: 500px;" onclick="ope.verificarMayor(5)">5</button>
+                    </div>
+                </div>
+                <button type="button" class="boton" onclick="ope.regresarAlnivel1()">Regresar</button> 
+                <div id="resultadoSecuencia"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6></h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

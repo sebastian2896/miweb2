@@ -1,0 +1,178 @@
+body {
+    font-family: 'Lobster', sans-serif;
+    background-color: rgb(252, 247, 242);
+    margin: 0;
+    padding: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover; 
+    background-position: center 5%; /* Cambiado de 'center' a 'center 80%' */
+    background-repeat: no-repeat; 
+    background-image: url(/img/r.jpg);
+    background-size: cover; 
+}
+
+h1 {
+    color: rgb(238, 227, 227);
+    text-align: center;
+    border-radius: 15px;
+}
+
+h2 {
+    color: rgb(228, 222, 218);
+}
+
+h6 {
+    color: rgb(253, 0, 0);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin: 5px auto; /* Reduje el margen aquí */
+    background-color: #050001f3;
+    border-radius: 10px;
+    padding: 10px; /* También puedes ajustar el padding si es necesario */
+    box-shadow: 0 1px 10px rgba(77, 33, 134, 0.5);
+    font-size: 32px;
+    width: 95%;
+    height: 90vh;
+}
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start; /* Cambiado a flex-start para alinear a la izquierda */
+    align-items: center;
+    width: 100%; /* Asegura que la barra ocupe todo el ancho */
+    padding-left: 20px; /* Añade un poco de padding a la izquierda */
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__items, .dropdown {
+    margin: 0 15px;
+}
+
+.nav__links, .dropbtn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.nav__links:hover, .dropbtn:hover {
+    background-color: red;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#resultadoSecuencia {
+    color: white;
+}
+
+/* Agrega estas líneas */
+ol li a {
+    color: orange;
+}
+
+ol li a:active, ol li a:focus {
+    color: red;
+}
+
+#pantallaPrincipal .container {
+    margin: 2px auto; /* Reducir el margen */
+    padding: 5px; /* Reducir el padding */
+    height: 15vh; /* Reducir la altura */
+}
+
+#pantallaInicio .container {
+    margin: 2px auto; /* Reducir el margen */
+    padding: 5px; /* Reducir el padding */
+    height: 15vh; /* Reducir la altura */
+}
+
+.boton-ejercicio {
+    margin: 30px;
+    background-color: rgba(218, 39, 16, 0.925);
+    /* el resto de tus estilos aquí */
+    font-size: 36px; /* Aumenta el tamaño de la fuente para hacer el botón más grande */
+    padding: 20px; /* Aumenta el padding para hacer el botón más grande */
+}
+
+#numero {
+    background-color: rgb(212, 199, 11);
+    color: black; /* Cambia el color del texto a negro (o cualquier otro color que prefieras) */
+}
+
+.boton-facebook, .boton-instagram {
+    font-size: 20px; /* Ajusta el tamaño del texto */
+    padding: 10px 20px; /* Ajusta el padding alrededor del texto */
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px 2px;
+    border-radius: 5px;
+    color: white; /* Color del texto */
+}
+
+.boton-facebook {
+    background-color: #3b5998; /* Color de fondo para el botón de Facebook */
+}
+
+.boton-instagram {
+    background-color: #C13584; /* Color de fondo para el botón de Instagram */
+}

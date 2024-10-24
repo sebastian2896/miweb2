@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formNumeros">
+                <div style="display: flex; justify-content: space-around; align-items: center; padding: px;">
+                    <input type="number" id="numero1" placeholder="Ingresa el primer número" style="font-size: 50px; width: 60%; text-align: center;">
+                    <input type="number" id="numero2" placeholder="Ingresa el segundo número" style="font-size: 50px; width: 60%; text-align: center;">
+                </div>
+                <div id="resultadoCalculadora" style="background-color: rgb(25, 218, 67);"></div>
+                <button type="button" class="boton-ejercicio" onclick="ope.realizarOperacion('+')">Sumar</button> 
+                <button type="button" class="boton-ejercicio" onclick="ope.realizarOperacion('-')">Restar</button> 
+                <button type="button" class="boton-ejercicio" onclick="ope.realizarOperacion('*')">Multiplicar</button> 
+                <button type="button" class="boton-ejercicio" onclick="ope.realizarOperacion('/')">Dividir</button> 
+                <button type="button" class="boton-ejercicio" onclick="ope.regresarAlnivel3()">Regresar</button> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6></h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

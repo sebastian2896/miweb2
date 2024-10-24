@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secuencia de números</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+<body id="pantallaEjercicios">
+    <header>
+        <h1>¿cual es el patron en la secuencia 5,10,15..?</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formSecuenciaNumeros">
+                <div style="display: flex; justify-content: space-around; align-items: center; padding: px;">
+                    <div style="display: flex; justify-content: space-around; align-items: center;">
+                        <button type="button" style="font-size: 500px; margin-right: 20px;" onclick="ope.verificarPatron(6)">6</button>
+                        <button type="button" style="font-size: 500px; margin-right: 20px;" onclick="ope.verificarPatron(2)">2</button>
+                        <button type="button" style="font-size: 500px;" onclick="ope.verificarPatron(5)">5</button>
+                    </div>
+                </div>
+                <button type="button" class="boton" onclick="ope.regresarAlnivel1()">Regresar</button> 
+                <div id="resultadoSecuencia"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6></h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>
